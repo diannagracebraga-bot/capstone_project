@@ -1,0 +1,51 @@
+.navbar{
+    background: #004AAD;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+      z-index: 1000; 
+}
+
+.icon2{
+    width: 60px;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.header{
+    background: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.sidebar{
+    position: fixed;
+    top: 85px;
+    left: 0;
+    width: 200px;
+    bottom: 0;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar a{
+    display: block;
+    padding: 14px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    background-color: #E5E4E2;
+    color: rgb(61, 113, 130);
+}
+
+.dashboard{
+    display: flex;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
